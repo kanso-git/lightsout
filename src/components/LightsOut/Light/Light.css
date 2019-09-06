@@ -1,0 +1,21 @@
+.Light {
+  height: 100px;
+  width: 100px;
+  border-radius: 1px;
+  background-color: #263238;
+  transition: background-color 0.7s ease;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Light-on {
+  background-color: #00bcd4;
+}
+
+.Light span {
+  font-size: 1.2rem;
+  color: azure;
+}
